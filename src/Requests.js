@@ -1,4 +1,4 @@
-const key = "d9b8b0e16bb5b39ca47b17702d4fd301";
+const key = process.env.REACT_APP_IMDB_API_KEY;
 
 const requests = {
     requestPopular: `https://api.themoviedb.org/3/movie/popular?api_key=${key}&language=en-US&page=1`,
